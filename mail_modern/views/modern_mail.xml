@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <template id="assets_backend_mail_customize" name="modern_mail assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/mail_modern/static/src/js/thread.js"/>
+                <link rel="stylesheet" href="/mail_modern/static/src/less/thread.less"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
