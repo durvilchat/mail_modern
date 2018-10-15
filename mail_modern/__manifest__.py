@@ -11,12 +11,12 @@
 
     'category': 'Discuss',
     'version': '1.0',
-    'price': 15,
+    'price': 25,
     'currency': 'EUR',
     'license': 'AGPL-3',
     'installable': True,
     'application': False,
-    'images': ['images/6.PNG','images/4.PNG'],
+    'images': ['images/6.PNG', 'images/4.PNG'],
     'data': [
         'views/modern_mail.xml',
     ],
