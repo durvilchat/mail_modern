@@ -144,8 +144,6 @@ odoo.define('mail_modern.thread', function (require) {
                 }, 1000 * 60);
             }
 
-            console.log(messages)
-            console.log(messages)
 
             this._renderMessageMailPopover(messages);
         },
@@ -157,13 +155,13 @@ odoo.define('mail_modern.thread', function (require) {
          * @param {boolean} [options.onlyIfNecessary]
          */
         scrollToMessage: function (options) {
-            var $target = this.$('.o_thread_message[data-message-id="' + options.messageID + '"]');
-
+            var $target = this.$('.o_thread_message[data-message-id="' + options.msgID + '"]'); 
             if (options.onlyIfNecessary) {
                 var delta = $target.parent().height() - $target.height();
                 var offset = delta < 0 ?
                     0 :
-                    delta - ($target.offset().top - $target.offsetParent().offset().top);
+                    delta - ($target.offset().top
+                    - $target.offsetParent().offset().top);
                 offset = -Math.min(offset, 0);
                 this.$el.scrollTo("+=" + offset + "px", options.duration);
             } else if ($target.length) {
