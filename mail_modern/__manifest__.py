@@ -7,11 +7,11 @@
     'description': """ 
     """,
 
-    'author': "Kywana dev solution",
+    'author': "Nusyce",
 
     'category': 'Discuss',
     'version': '1.0',
-    'price': 25,
+    'price': 40,
     'currency': 'EUR',
     'license': 'AGPL-3',
     'installable': True,
