@@ -7,7 +7,7 @@
     'description': """ 
     """,
 
-    'author': "Nusyce",
+    'author': "Kywana dev solution",
 
     'category': 'Discuss',
     'version': '1.0',
