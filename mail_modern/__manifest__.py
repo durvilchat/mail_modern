@@ -4,8 +4,7 @@
 
     'summary': """Modern presentation of the messages of your discussion""",
 
-    'description': """ 
-    """,
+    'description': "",
 
     'author': "Kywana dev solution",
 
