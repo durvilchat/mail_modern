@@ -6,7 +6,7 @@
 
     'description': "",
 
-    'author': "Nusyce",
+    'author': "Nusyce LTD",
 
     'category': 'Discuss',
     'version': '1.0',
