@@ -126,6 +126,9 @@ $mail-thread-note: #eee;
       color: $blue;
     }
   }
+  .o_attachments_previews{    margin-bottom: 5px !important;
+    .o_attachment{min-width: 150px;}
+  }
   .notification {
     margin: 0 auto;
     width: 260px;
